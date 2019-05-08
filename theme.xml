@@ -21,13 +21,15 @@ Carousel wheel and main menu background
    <view name="system">
       <carousel name="systemcarousel">
         <zIndex>43</zIndex>	      
-        <type>horizontal</type>
-        <pos>0.0 0.0</pos>
+        <type>vertical_wheel</type>
+        <pos>-0.31 0</pos>
         <size>1 1</size>
-        <logoScale>1.3</logoScale>
-        <logoSize>0.31 0.27</logoSize>
+        <logoScale>1</logoScale>
+        <logoSize>0.33 0.15</logoSize>
         <color>00000000</color>
-        <maxLogoCount>3</maxLogoCount>
+        <maxLogoCount>7</maxLogoCount>
+        <logoRotation>-4</logoRotation>
+		<logoRotationOrigin>-4.0 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>        
       </carousel>
       <image name="background" extra="true">
@@ -38,7 +40,7 @@ Carousel wheel and main menu background
          <path>./_inc/images/main.png</path>
       </image>                    
       <text name="systemInfo">     
-         <pos>0.0 0.784</pos>
+         <pos>0.1 0.471</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>0d46c1</color>
          <fontPath>./_inc/fonts/Bangers.ttf</fontPath>
@@ -57,7 +59,7 @@ On Screen help
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Bangers.ttf</fontPath>
          <fontSize>0.04</fontSize>     
-         <pos>0.24 0.95</pos>      
+         <pos>1.24 1.95</pos>      
          <textColor>ffd800</textColor>
          <iconColor>ffd800</iconColor>
       </helpsystem>
